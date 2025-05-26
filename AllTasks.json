@@ -1,0 +1,18 @@
+{
+    "1": {
+        "task_id": 1,
+        "name": "New Test Task",
+        "status": "Started",
+        "task_desc": "This is a new test task",
+        "start_date": {
+            "day": 26,
+            "month": 5,
+            "year": 2025
+        },
+        "deadline": {
+            "day": 15,
+            "month": 6,
+            "year": 2025
+        }
+    }
+}
