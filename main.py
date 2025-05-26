@@ -1,7 +1,8 @@
+import typer
 import tazkACTIONS as ta
 import tazkUTILS as tu
 
-def Tazk():
+def main():
     print('Menu')
     print('\n1. Add Task\n2. Update Task\n3. Delete Tasks\n4. Print Existing Tasks\n5. Search for a Task\n5. Exit')
     while True:
@@ -22,4 +23,4 @@ def Tazk():
             case _:
                 print("Invalid Choice!")
 
-Tazk()
+main()
